@@ -9,7 +9,10 @@
         }
 
         #logo img {
-            height: 100px;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: solid 1px white;
         }
 
         h1 {
@@ -32,4 +35,8 @@
             margin: auto;
             padding: 20px;
             width: 80%;
+        }
+
+        .links a img {
+            height: 40px;
         }
