@@ -4,8 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 72px);
     background-color: var(--shadow);
+    height: calc(100vh - 72px);
+    position: relative;
+    top: 0;
 }
 
 .form-access form {
@@ -14,4 +17,12 @@
     border-radius: 8px;
     background-color: var(--yellow);
     padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-access form p {
+    margin-top: 10px;
 }
